@@ -15,7 +15,7 @@ public class ControllerV1 {
         }else if(n.equals("2")){
             log.error("에러 입니다 ={}",n);
         }else{
-            log.warn("경고입니다 ={}",n);
+            log.warn("경고 입니다 ={}",n);
         }
         return "index";
     }
